@@ -1,0 +1,26 @@
+html {
+    background-color: #cdc08c;
+}
+
+
+.navigation {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #414141;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    color: #f4b5bd;
+  }
+  
+  .navigation a:active {
+    color: #f4b5bd;
+  }
