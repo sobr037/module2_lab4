@@ -7,10 +7,16 @@
         <meta name="description" content="A Ficticious Fish Restraunt created in the style of a Wes Anderson film">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <!-- Navigation -->
+        <div class="title">
+            <h1>The Koi's Quirk</h1>
+        </div>
         <div class="navigation">
             <a href="#philosophy">Philosophy</a>
             <a href="#ingredients">Ingredients</a>
@@ -38,6 +44,9 @@
         <section id="ingredients">
             <div class="ingredients">
                 <div class="ingredients_fruit">
+                    <div class="fruit_images">
+                        <img src="/assets/fresh_vegetables.png" alt="A photograph of a vegetable store with fresh fruits stacked onto shelves.">
+                    </div>
                     <div class="fruit_text">
                         <h2>A Coastal Culinary Adventure: The Flavors of Bubblefish Bay</h2>
                         <p>Immerse yourself in the coastal charm of Bubblefish Bay as you embark on a gastronomic adventure at "The Koi's Quirk." Our dedication to the town's vibrant culinary scene ensures that your dining experience transcends mere sustenance, inviting you to explore the rich flavors and local specialties that make Bubblefish Bay truly unique.</p>
@@ -45,9 +54,6 @@
                         <p>We take great care to support local producers, collaborating with nearby farms to bring you the freshest seasonal vegetables, and partnering with artisanal cheese-makers who craft delectable creations that perfectly complement our seafood offerings. It's a celebration of the town's culinary artisans, who infuse their passion and expertise into every ingredient that graces our plates.</p>
                         <p>Pair your meal with a thoughtfully curated selection of wines and craft beers, carefully chosen to enhance the flavors of our coastal cuisine. Our knowledgeable sommeliers will guide you through an exquisite journey of pairings, ensuring each sip and bite are in perfect harmony.</p>
                         <p>At "The Koi's Quirk," we invite you to savor the vibrant flavors of Bubblefish Bay, where the sea meets the land in a symphony of taste and imagination. Come, embark on a coastal culinary adventure, and discover the magic that unfolds when passion, community, and the freshest ingredients unite on your plate.
-                    </div>
-                    <div class="fruit_images">
-                        <img src="/assets/fresh_vegetables.png" alt="A photograph of a vegetable store with fresh fruits stacked onto shelves.">
                     </div>
                 </div>
 
@@ -71,13 +77,8 @@
 
         <!-- Meet the Team Section. -->
 
+        <h2 class="team_h1">Meet the Team</h2>
         <section id="team">
-            <div class="staff_profile">
-                <img src="/assets/waiter_1.png" alt="Photo of staff member" class="profile_image">
-                <h3 class="name">Oliver Fishterson</h3>
-                <p class="job_title">Artistic Plating Specialist</p>
-                <p class="favorite_fish">Favorite Fish: Mahi-Mahi</p>
-            </div>
             <div class="staff_profile">
                 <img src="/assets/chef_1.png" alt="Photo of staff member" class="profile_image">
                 <h3 class="name">Penelope Salmonella</h3>
@@ -90,10 +91,19 @@
                 <p class="job_title">Quirky Waiter Extraordinaire</p>
                 <p class="favorite_fish">Favorite Fish: I Hate Fish</p>
             </div>
+            <div class="staff_profile">
+                <img src="/assets/waiter_1.png" alt="Photo of staff member" class="profile_image">
+                <h3 class="name">Oliver Fishterson</h3>
+                <p class="job_title">Artistic Plating Specialist</p>
+                <p class="favorite_fish">Favorite Fish: Mahi-Mahi</p>
+            </div>
         </section>
 
         <!-- Booking Form Section. -->
         <section id="bookings">
+            <div class="booking_image">
+                <img src="/assets/chef_2.png" alt="A female chef holding a freshly caught fish in the kitchen.">
+            </div>
             <div class="booking_form">
                 <h2>Book a Table:</h2>
                 <form id="booking_form" action="" method="post">
@@ -125,9 +135,6 @@
                     </div>
                     <button type="submit">Submit</button>
                   </form>
-            </div>
-            <div class="booking_image">
-                <img src="/assets/chef_2.png" alt="A female chef holding a freshly caught fish in the kitchen.">
             </div>
         </section>
         <!-- Location/Visit Us Section. -->

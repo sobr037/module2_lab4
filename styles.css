@@ -1,7 +1,26 @@
+/* Global CSS Styles. */
+
 html {
     background-color: #cdc08c;
+    font-family: 'Libre Baskerville', serif;
 }
 
+h1 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+/* CSS for the sites Navigation. */
+.title {
+    text-align: center;
+}
+
+.title:hover {
+    color: #f4b5bd;
+}
 
 .navigation {
     padding: 10px;
@@ -23,4 +42,218 @@ html {
   
   .navigation a:active {
     color: #f4b5bd;
+  }
+
+  /* CSS for the Introduction Section. */
+
+  .philosophy {
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+  }
+  
+  .philosophy_left {
+    flex-basis: 40%;
+    padding: 20px;
+    background-color: #f4b5bd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 40%;
+    align-self: center;
+    box-shadow: 5px 6px #9c964a;
+  }
+
+  .philosophy_left h1 {
+    margin-bottom: 0px;
+  }
+
+  .philosophy_left h4 {
+    margin-top: 0px
+  }
+
+  .philosophy_left p {
+    max-width: 60%
+  }
+
+  .philosophy_right {
+    flex-basis: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .philosophy_right img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 6px #9c964a;
+
+  }
+
+  /* CSS for the fresh Ingredients section. */
+
+  #ingredients {
+    padding-top: 5%;
+    display: flex;
+  }
+  
+  .ingredients_fruit {
+    flex: 30%;
+    display: flex;
+    padding-bottom: 5%;
+  }
+  
+  .fruit_images img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 6px #9c964a;
+  }
+  
+  .fruit_text {
+    flex: 70%;
+    padding: 0 20px;
+  }
+  
+  .ingredients_fish {
+    flex: 30%;
+    display: flex;
+    padding-bottom: 5%;
+  }
+  
+  .fish_text {
+    flex: 70%;
+    padding: 0 20px;
+  }
+  
+  .fish_images img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 6px #9c964a;
+  }
+  
+
+  /* CSS for the Meet the team section. */
+
+.team_h1 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#team {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .staff_profile {
+    flex-basis: calc(33.33% - 20px);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 10%;
+  }
+  
+  .profile_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #85d4e3;
+  }
+  
+  .name {
+    margin-top: 10px;
+  }
+  
+  .job_title {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .favorite_fish {
+    margin-top: 5px;
+  }
+
+  .name:hover, .job_title:hover, .favorite_fish:hover {
+    color: #f4b5bd;
+  }
+  
+
+/* CSS for the Meet the Table Booking section. */
+
+#bookings {
+    display: flex;
+  }
+  
+  .booking_image {
+    flex: 1;
+    width: 50%;
+  }
+  
+  .booking_image img {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 6px #9c964a;
+  }
+  
+  .booking_form {
+    background-color: #fad77b;
+    flex: 1;
+    height: 50%;
+    padding: 20px;
+    align-self: center;
+    margin-left: 1%;
+    box-shadow: 5px 6px #9c964a;
+    text-align: center;
+  }
+
+  .form_group {
+    padding: 3px;
+  }
+  
+  .form_group input, .form_group textarea {
+    background-color: #fad77b;
+  }
+
+
+  /* CSS for the Location section. */
+  
+
+  #location {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .location_text {
+    flex: 1;
+    background-color: #85d4e3;
+    align-self: center;
+    text-align: center;
+    margin-right: 1%;
+    box-shadow: 5px 6px #9c964a;
+  }
+
+  .location_text h4 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .location_text ul li {
+    list-style-type: none;
+  }
+
+  .location_text ul {
+    padding-left: 0%
+  }
+  
+  .location_image {
+    flex: 1;
+    
+  }
+  
+  .location_image img {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 6px #9c964a;
   }
