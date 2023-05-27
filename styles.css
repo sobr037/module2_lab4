@@ -257,3 +257,7 @@ h4 {
     height: auto;
     box-shadow: 5px 6px #9c964a;
   }
+
+  .disclaimer {
+    text-align: center;
+  }
