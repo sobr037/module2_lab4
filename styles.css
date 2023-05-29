@@ -179,7 +179,7 @@ h4 {
   }
   
 
-/* CSS for the Meet the Table Booking section. */
+/* CSS for the Table Booking section. */
 
 #bookings {
     display: flex;
@@ -260,4 +260,50 @@ h4 {
 
   .disclaimer {
     text-align: center;
+  }
+
+
+   /* CSS for the Media Conbditions so that content stacks vertically on mobile view. */
+
+  @media (max-width: 790px) {
+    .navigation {
+      flex-direction: column;
+      text-align: center;
+    }
+    .philosophy {
+      flex-direction: column-reverse;
+    }
+    .ingredients_fruit {
+      flex-direction: column;
+      text-align: center;
+    }
+    .ingredients_fish {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    #team {
+      flex-direction: column;
+      text-align: center;
+    }
+    #bookings {
+      flex-direction: column;
+    }
+    .booking_image {
+      width: 100%;
+    }
+    .booking_form {
+      margin-top: 2%;
+      width: 60%;
+    }
+    #location {
+      flex-direction: column-reverse;
+    }
+    .location_text {
+      margin-top: 2%;
+    }
+    .disclaimer {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
