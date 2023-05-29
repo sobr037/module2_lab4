@@ -103,6 +103,10 @@ h4 {
     padding-bottom: 5%;
   }
   
+  .fruit_images {
+    align-self: center;
+  }
+
   .fruit_images img {
     max-width: 100%;
     height: auto;
@@ -125,6 +129,10 @@ h4 {
     padding: 0 20px;
   }
   
+  .fish_images {
+    align-self: center;
+  }
+
   .fish_images img {
     max-width: 100%;
     height: auto;
@@ -265,7 +273,9 @@ h4 {
 
    /* CSS for the Media Conbditions so that content stacks vertically on mobile view. */
 
-  @media (max-width: 790px) {
+   /* CSS for Mobile View. */
+  
+  @media (max-width: 790px) { 
     .navigation {
       flex-direction: column;
       text-align: center;
@@ -303,6 +313,24 @@ h4 {
     }
     .disclaimer {
       max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /* CSS for Tablet View. */
+  @media (max-width: 1160px) {
+    .ingredients_fruit {
+      flex-direction: column;
+      text-align: center;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .ingredients_fish {
+      flex-direction: column-reverse;
+      text-align: center;
+      max-width: 90%;
       margin-left: auto;
       margin-right: auto;
     }
